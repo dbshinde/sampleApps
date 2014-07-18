@@ -10,7 +10,7 @@
         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
         xsi:schemaLocation="urn:org:jgroups http://www.jgroups.org/schema/JGroups-3.0.xsd">
     <TCP bind_addr="127.0.0.1"
-         bind_port="7800" port_range="30"
+         bind_port="8080" port_range="5"
          loopback="true"
          recv_buf_size="${tcp.recv_buf_size:20M}"
          send_buf_size="${tcp.send_buf_size:640K}"

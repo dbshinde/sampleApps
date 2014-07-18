@@ -10,13 +10,6 @@
         Simple book eshop for testing Infinispan.
     </description>
 
-    <resource-ref>
-        <description>iBook datasource</description>
-        <res-ref-name>jdbc/iBook</res-ref-name>
-        <res-ref-type>javax.sql.DataSource</res-ref-type>
-        <res-auth>Container</res-auth>
-    </resource-ref>
-
     <resource-env-ref>
         <description>JTA transaction manager</description>
         <resource-env-ref-name>UserTransaction</resource-env-ref-name>

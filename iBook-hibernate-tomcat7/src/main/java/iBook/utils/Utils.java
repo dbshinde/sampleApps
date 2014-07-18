@@ -117,7 +117,7 @@ public final class Utils {
     public UserTransaction openTransaction() {
         UserTransaction tx = null;
         try {
-            tx = (UserTransaction)new InitialContext().lookup("java:comp/UserTransaction");
+            tx = (UserTransaction)new InitialContext().lookup("java:comp/env/UserTransaction");
             tx.begin();
         } catch (Exception e) {
             e.printStackTrace();
